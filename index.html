@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NEXORA DIGITAL — цифровые продукты для бизнеса (концепт)</title>
+<meta name="description" content="Концепт лендинга вымышленной digital-студии NEXORA DIGITAL: сайты, веб-интерфейсы и интерактивные решения. Проект для портфолио веб-разработчика.">
+<meta property="og:title" content="NEXORA DIGITAL — концепт лендинга">
+<meta property="og:description" content="Тёмный адаптивный лендинг digital-студии: услуги, кейсы, FAQ и форма заявки.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@500;700;800&display=swap">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header id="top">
+ <div class="wrap bar">
+  <a class="logo" href="#top" aria-label="NEXORA DIGITAL — наверх"><i></i>NEXORA DIGITAL</a>
+  <nav id="nav" aria-label="Основная навигация">
+   <ul>
+    <li><a href="#services">Услуги</a></li>
+    <li><a href="#projects">Проекты</a></li>
+    <li><a href="#approach">Подход</a></li>
+    <li><a href="#contact">Контакты</a></li>
+   </ul>
+  </nav>
+  <span class="avail" title="Декоративный элемент концепта">Концепт · принимает идеи</span>
+  <a class="btn p" href="#contact">Обсудить проект</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+ <div class="wrap">
+  <div>
+   <p class="tag">Digital studio · концепт</p>
+   <h1 id="h1">Создаём цифровые продукты, которые двигают бизнес вперёд.</h1>
+   <p class="lead">Проектируем и разрабатываем сайты и веб-интерфейсы: выразительный дизайн, продуманная структура, современные технологии.</p>
+   <div class="row">
+    <a class="btn p" href="#contact">Обсудить проект ↗</a>
+    <a class="btn" href="#projects">Смотреть проекты ↓</a>
+   </div>
+   <div class="areas"><span>Веб-дизайн · Разработка · Digital</span><span>Все показатели и кейсы на странице демонстрационные</span></div>
+  </div>
+ </div>
+ <picture class="hero-pic">
+  <source media="(min-width:1024px)" srcset="/src/assets/images/hero/hero-poster.webp" width="1672" height="941">
+  <img src="/src/assets/images/hero/hero-object.webp" width="1000" height="1000" alt="Абстрактная скульптура из графитовых блоков с лаймовой подсветкой внутри" fetchpriority="high" decoding="async">
+ </picture>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="tk"><span>Веб-дизайн</span><span>Веб-разработка</span><span>Редизайн</span><span>Интерактивные решения</span><span>Адаптивная вёрстка</span><span>Скорость и доступность</span><span>Веб-дизайн</span><span>Веб-разработка</span><span>Редизайн</span><span>Интерактивные решения</span><span>Адаптивная вёрстка</span><span>Скорость и доступность</span></div></div>
+
+<section id="about" aria-labelledby="ab">
+ <div class="wrap about">
+  <div class="rv">
+   <h2 id="ab">Технологии имеют значение. Но результат важнее.</h2>
+   <p style="margin-top:24px;max-width:52ch">Мы собираем цифровые решения из понятной структуры, аккуратной визуальной системы и чистого кода. Каждый экран отвечает на вопрос: что должен сделать посетитель дальше.</p>
+   <ul class="principles">
+    <li><b>Функциональность</b><span>Каждый блок решает конкретную задачу.</span></li>
+    <li><b>Визуальная система</b><span>Единые сетка, типографика и состояния.</span></li>
+    <li><b>Техническое качество</b><span>Семантика, доступность, быстрая загрузка.</span></li>
+   </ul>
+  </div>
+  <div class="tabs rv">
+   <img class="shot" src="/src/assets/images/about/about-ui.webp" width="1200" height="675" alt="Фрагменты интерфейса: окно кода, переключатель, кнопка и график" loading="lazy" decoding="async">
+   <div class="tl" role="tablist" aria-label="Из чего состоит работа">
+    <button role="tab" id="t0" aria-selected="true" aria-controls="p0">Дизайн</button>
+    <button role="tab" id="t1" aria-selected="false" aria-controls="p1" tabindex="-1">Разработка</button>
+    <button role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1">Результат</button>
+   </div>
+   <div class="tp" role="tabpanel" id="p0" aria-labelledby="t0"><h3>Структура до оформления</h3><p>Сначала сценарий страницы и иерархия, затем палитра, шрифты и компоненты.</p><ul><li>Сетка на шаге 8 px</li><li>Дизайн-токены для цвета и отступов</li></ul></div>
+   <div class="tp" role="tabpanel" id="p1" aria-labelledby="t1" hidden><h3>Код, который легко читать</h3><p>Семантический HTML, CSS-переменные, небольшие модули на JavaScript без лишних зависимостей.</p><ul><li>Адаптивность от 320 px</li><li>Уважение к prefers-reduced-motion</li></ul></div>
+   <div class="tp" role="tabpanel" id="p2" aria-labelledby="t2" hidden><h3>Проект, который можно запустить</h3><p>Готовые файлы, инструкция по запуску и сборке, проверенные формы и навигация.</p><ul><li>README с шагами публикации</li><li>Проверка на реальных размерах экрана</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section id="services" aria-labelledby="sv">
+ <div class="wrap">
+  <div class="head rv"><h2 id="sv">Что мы делаем</h2><p>Четыре направления: от структуры страницы до интерактивных сценариев.</p></div>
+  <div class="grid4">
+   <article class="card rv"><img class="ic" src="/src/assets/images/services/service-design.webp" width="320" height="320" alt="" loading="lazy" decoding="async"><small>Дизайн</small><h3>Веб-дизайн</h3><p>Структура, визуальная система и интерфейсы сайтов.</p><ul><li>Прототип страницы</li><li>Палитра и типографика</li></ul><a href="#projects">Пример: NOVA</a></article>
+   <article class="card rv"><img class="ic" src="/src/assets/images/services/service-development.webp" width="320" height="320" alt="" loading="lazy" decoding="async"><small>Разработка</small><h3>Веб-разработка</h3><p>Адаптивная вёрстка и реализация интерактивных интерфейсов.</p><ul><li>HTML, CSS, JavaScript</li><li>Сборка на Vite</li></ul><a href="#projects">Пример: FORMA</a></article>
+   <article class="card rv"><img class="ic" src="/src/assets/images/services/service-redesign.webp" width="320" height="320" alt="" loading="lazy" decoding="async"><small>Редизайн</small><h3>Обновление сайта</h3><p>Новый визуал, структура и удобство для существующих сайтов.</p><ul><li>Разбор текущих экранов</li><li>Поэтапный переход</li></ul><a href="#projects">Пример: MONO</a></article>
+   <article class="card rv"><img class="ic" src="/src/assets/images/services/service-interaction.webp" width="320" height="320" alt="" loading="lazy" decoding="async"><small>Интерактив</small><h3>Интерактивные решения</h3><p>Анимации, формы, переключатели и другие клиентские сценарии.</p><ul><li>Модальные окна, аккордеоны</li><li>Формы с валидацией</li></ul><a href="#contact">Проверить форму</a></article>
+  </div>
+ </div>
+</section>
+
+<section id="projects" aria-labelledby="pj">
+ <div class="wrap">
+  <div class="head rv"><h2 id="pj">Избранные проекты</h2><p>Три демонстрационных кейса в разных направлениях. Это учебные концепты, а не клиентские работы.</p></div>
+  <div class="proj">
+   <button class="pc rv" data-p="nova"><div class="cover"><img src="/src/assets/images/projects/nova-cover.webp" width="1200" height="800" alt="Тёмная панель аналитики с графиками и лаймовой линией данных" loading="lazy" decoding="async"></div><div class="in"><span>SaaS-платформа</span><h3>NOVA</h3><p>Интерфейс технологического сервиса с панелью данных.</p><em>Посмотреть проект</em></div></button>
+   <button class="pc rv" data-p="forma"><div class="cover"><img src="/src/assets/images/projects/forma-cover.webp" width="1200" height="800" alt="Светлая страница интернет-магазина с карточками товаров" loading="lazy" decoding="async"></div><div class="in"><span>E-commerce</span><h3>FORMA</h3><p>Визуальная система интернет-магазина.</p><em>Посмотреть проект</em></div></button>
+   <button class="pc rv" data-p="mono"><div class="cover"><img src="/src/assets/images/projects/mono-cover.webp" width="1200" height="800" alt="Минималистичная тёмная презентация бренда с лаймовым квадратом" loading="lazy" decoding="async"></div><div class="in"><span>Брендовая презентация</span><h3>MONO</h3><p>Минималистичный сайт для креативного бизнеса.</p><em>Посмотреть проект</em></div></button>
+  </div>
+ </div>
+</section>
+
+<dialog id="dlg" aria-labelledby="dt">
+ <button class="x" id="dx" aria-label="Закрыть">×</button>
+ <div class="dg"><div class="gal"><div class="view"><img id="dv" src="" alt="" width="1200" height="800"></div><div class="thumbs" id="dth"></div></div>
+  <div class="dt"><span id="dcat" style="color:var(--lime)"></span><h3 id="dt" style="font-size:2rem"></h3><p id="dd"></p><div class="chips" id="dch"></div><p id="dg2"></p><p class="note">Учебный концепт. Изображения созданы, чтобы показать визуальное направление; показатели и отзывы не указываются.</p></div>
+ </div>
+</dialog>
+
+<section id="approach" aria-labelledby="ad">
+ <div class="wrap">
+  <div class="head rv"><h2 id="ad">Как мы подходим к работе</h2></div>
+  <div class="grid4 adv">
+   <div class="rv"><b>1</b><h3>Продуманная структура</h3><p>Каждый блок выполняет определённую задачу.</p></div>
+   <div class="rv"><b>2</b><h3>Адаптивность</h3><p>Интерфейс учитывает разные размеры экранов.</p></div>
+   <div class="rv"><b>3</b><h3>Чистая реализация</h3><p>Понятный код и повторное использование компонентов.</p></div>
+   <div class="rv"><b>4</b><h3>Внимание к деталям</h3><p>Аккуратные состояния, переходы и обратная связь.</p></div>
+  </div>
+ </div>
+</section>
+
+<section aria-labelledby="pr">
+ <div class="wrap">
+  <div class="head rv"><h2 id="pr">Пять шагов от идеи до передачи</h2></div>
+  <ol class="steps" id="steps">
+   <li><h3>Обсуждение задачи</h3><p>Цели, аудитория, ограничения и ожидаемый результат.</p></li>
+   <li><h3>Структура и концепция</h3><p>Сценарий страницы, композиция и визуальное направление.</p></li>
+   <li><h3>Дизайн и разработка</h3><p>Интерфейс, адаптивность и интерактивные функции.</p></li>
+   <li><h3>Проверка качества</h3><p>Экраны, формы, навигация и состояния интерфейса.</p></li>
+   <li><h3>Передача проекта</h3><p>Файлы, инструкции по запуску и согласованные материалы.</p></li>
+  </ol>
+ </div>
+</section>
+
+<section aria-labelledby="tc">
+ <div class="wrap">
+  <div class="head rv"><h2 id="tc">Стек без лишнего</h2><p>Только то, что реально используется в проекте.</p></div>
+  <div class="stack rv">
+   <div><b>HTML5</b><span>семантика, формы</span></div>
+   <div><b>CSS3</b><span>Grid, Flexbox, переменные</span></div>
+   <div><b>JavaScript ES6+</b><span>меню, FAQ, форма, модальные окна</span></div>
+   <div><b>Vite</b><span>сборка и dev-сервер</span></div>
+   <div><b>Git</b><span>история изменений</span></div>
+   <div><b>CSS Animations</b><span>без тяжёлых библиотек</span></div>
+  </div>
+ </div>
+</section>
+
+<section aria-labelledby="co">
+ <div class="wrap">
+  <div class="head rv"><h2 id="co">Принципы сотрудничества</h2><p>Вместо выдуманных отзывов — правила, по которым строится работа.</p></div>
+  <div class="coop">
+   <div class="rv"><h3>Прозрачный объём работ</h3><p>Список задач согласуется до старта.</p></div>
+   <div class="rv"><h3>Понятные этапы</h3><p>Вы видите, что происходит на каждом шаге.</p></div>
+   <div class="rv"><h3>Согласование изменений</h3><p>Новые правки обсуждаются отдельно.</p></div>
+   <div class="rv"><h3>Проверка результата</h3><p>Перед передачей всё тестируется.</p></div>
+  </div>
+ </div>
+</section>
+
+<section aria-labelledby="fq">
+ <div class="wrap">
+  <div class="head rv"><h2 id="fq">Частые вопросы</h2></div>
+  <div class="faq" id="faq"></div>
+ </div>
+</section>
+
+<section id="contact" class="ctas" aria-labelledby="ct">
+ <div class="wrap cta">
+  <div class="rv">
+   <h2 id="ct" style="max-width:14ch">Есть идея? Давайте превратим её в цифровой продукт.</h2>
+   <p style="margin:24px 0 32px;max-width:44ch">Расскажите о задаче — обсудим подход, объём работ и следующий шаг.</p>
+   <a class="btn" href="#projects">Посмотреть работы</a>
+  </div>
+  <form id="form" novalidate class="rv" aria-describedby="demo">
+   <p class="demo" id="demo">Демо-режим: данные никуда не отправляются, форма показывает только проверку и состояния.</p>
+   <div class="fld"><label for="n">Имя</label><input id="n" name="n" autocomplete="name"><span class="err" id="en" role="alert"></span></div>
+   <div class="fld"><label for="e">Электронная почта</label><input id="e" name="e" type="email" autocomplete="email"><span class="err" id="ee" role="alert"></span></div>
+   <div class="fld"><label for="t">Тип проекта</label><select id="t" name="t"><option value="">Выберите тип</option><option>Лендинг</option><option>Многостраничный сайт</option><option>Редизайн</option><option>Веб-приложение</option></select><span class="err" id="et" role="alert"></span></div>
+   <div class="fld"><label for="m">Задача</label><textarea id="m" name="m"></textarea><span class="err" id="em" role="alert"></span></div>
+   <label class="chk"><input type="checkbox" id="c"><span>Согласен на обработку данных (демо-сценарий)</span></label><span class="err" id="ec" role="alert"></span>
+   <button class="btn p" type="submit" id="sb">Обсудить проект</button>
+   <div id="res" role="status"></div>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="ft">
+   <div><a class="logo" href="#top"><i></i>NEXORA DIGITAL</a><p style="margin-top:16px;max-width:36ch">Концепт студии: сайты, веб-интерфейсы и интерактивные решения.</p></div>
+   <nav aria-label="Навигация в подвале"><ul><li><a href="#services">Услуги</a></li><li><a href="#projects">Проекты</a></li><li><a href="#approach">Подход</a></li><li><a href="#contact">Контакты</a></li></ul></nav>
+   <div><p>Контактов и соцсетей нет: проект демонстрационный.</p></div>
+  </div>
+  <p class="copy">© 2026 NEXORA DIGITAL — концепт для портфолио. Название, тексты и кейсы вымышлены.</p>
+ </div>
+</footer>
+<a class="totop" id="totop" href="#top" aria-label="Наверх"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+<a class="btn p mcta" id="mcta" href="#contact">Обсудить проект</a>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
